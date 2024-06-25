@@ -1,10 +1,10 @@
-import { DemonstratingProps } from "./components/demo/DemonstratingProps";
+import { Counter } from "./components/demo/Counter";
 
 function App() {
     return (
         <div>
-            <h1>App component</h1>
-            <DemonstratingProps />
+            <h3>Countdown App</h3>
+            <Counter start='10'/>
         </div>
     );
 }
